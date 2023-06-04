@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AP4 - Formulário de Candidato pt2</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <h1>Formulário de Candidato</h1>
+
+        <div class="bloco">
+            <h2>Dados Pessoais</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+       
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required><br><br>
+       
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br><br>
+       
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select><br><br>
+          </div>
+       
+          <div class="bloco">
+
+            <h2>Dados Profissionais</h2>
+
+            <div class="opcoes">
+                <label>
+                  <input type="radio" name="natureza" value="gerencia">
+                  Gerência
+                </label>
+                <label>
+                  <input type="radio" name="natureza" value="financeiro">
+                  Financeiro
+                </label>
+                <label>
+                  <input type="radio" name="natureza" value="recepcao">
+                  Recepção
+                </label>
+                <label>
+                  <input type="radio" name="natureza" value="administrativo">
+                  Administrativo
+                </label>
+                <label>
+                  <input type="radio" name="natureza" value="juridico">
+                  Jurídico
+                </label>
+              </div>
+         
+              <label for="area">Área de Interesse:</label>
+              <div class="opcoes">
+                <label>
+                  <input type="checkbox" name="area" value="computacao">
+                  Computação
+                </label>
+                <label>
+                  <input type="checkbox" name="area" value="biologia">
+                  Biologia
+                </label>
+                <label>
+                  <input type="checkbox" name="area" value="meioambiente">
+                  Meio Ambiente
+                </label>
+                <label>
+                  <input type="checkbox" name="area" value="engenharia">
+                  Engenharia
+                </label>
+                <label>
+                  <input type="checkbox" name="area" value="historia">
+                  História
+                </label>
+              </div>
+       
+            <label for="curriculo">Mini Currículo:</label>
+            <textarea id="curriculo" name="curriculo" rows="5" cols="30"></textarea><br><br>
+            <input type="submit" value="Salvar">
+          </div>
+                  
+            </select><br><br>
+
+
+
+        </form>
+
+    </body>
+
+</html>

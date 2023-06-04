@@ -1,0 +1,28 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #939393;
+    border-bottom-color: #000;
+    border-right-color: #000;
+}
+
+table td, table th {
+    border: 1px solid #b7b7b7;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+caption {
+    text-align: center;
+    caption-side: top;
+}
+
+.responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+}

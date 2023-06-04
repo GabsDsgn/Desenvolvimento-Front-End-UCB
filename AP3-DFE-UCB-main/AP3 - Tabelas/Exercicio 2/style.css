@@ -1,0 +1,23 @@
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+
+td {
+padding: 8px;
+text-align: center;
+}
+
+
+.cor1 {
+background-color: #FFC0CB;
+}
+
+.cor2 {
+background-color: #FFFF00;
+}
+
+.cor3 {
+background-color: #00FF00;
+}
